@@ -14,5 +14,4 @@ Link To The App :- https://fine-puce-hummingbird-cap.cyclic.app
     latest Data then updated Data will get Rendered on UI else Cache Data.
 
 Thanks,
-Utkarsh Saini,
-GACC.    
+Utkarsh Saini.    
