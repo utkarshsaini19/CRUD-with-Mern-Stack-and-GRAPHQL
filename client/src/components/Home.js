@@ -15,6 +15,11 @@ export default function Home() {
         return <h1>No quotes available</h1>
     }
 
+    if(data)
+    {
+        console.log(data);
+    }
+
     return (
         <div className="container">
             {
