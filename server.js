@@ -19,12 +19,12 @@ const port = process.env.PORT || 4000
 const app = express();
 const httpServer = http.createServer(app);
 
-dotenv.config()
-
 if (process.env.CYCLIC_URL == 'dev') {
+  dotenv.config()
 
-  connectToMongo()
 }
+
+connectToMongo()
 
 import resolvers from './resolvers.js';
 
